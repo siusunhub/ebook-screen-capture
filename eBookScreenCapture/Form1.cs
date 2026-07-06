@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -38,6 +38,7 @@ namespace eBookScreenCapture
         }
 
 
+        string version = "v0.2";
         string ImageSaveFolder = "";
         string ImageSaveFilenamePrefix = "";
         int filenameStartDigit = 1;
@@ -77,6 +78,7 @@ namespace eBookScreenCapture
         public Form1()
         {
             InitializeComponent();
+            this.Text += " " + version;
             updatePositionText();
 
             SetLabel(labelStatus, "Ready to capture");
