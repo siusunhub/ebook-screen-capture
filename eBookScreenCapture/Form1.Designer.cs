@@ -29,397 +29,360 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
-            this.textBoxSaveFolder = new System.Windows.Forms.TextBox();
-            this.textBoxFileNamePrefix = new System.Windows.Forms.TextBox();
-            this.numericStartPage = new System.Windows.Forms.NumericUpDown();
-            this.numericTotalPage = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
-            this.labelCapturePos = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.labelClickPos = new System.Windows.Forms.Label();
-            this.buttonStart = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.numericWaitSecond = new System.Windows.Forms.NumericUpDown();
-            this.buttonStop = new System.Windows.Forms.Button();
-            this.labelStatus = new System.Windows.Forms.Label();
-            this.buttonExit = new System.Windows.Forms.Button();
-            this.checkBoxCutLeftRight = new System.Windows.Forms.CheckBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.pictureBoxMain = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericStartPage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericTotalPage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericWaitSecond)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMain)).BeginInit();
-            this.SuspendLayout();
+            folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            textBoxSaveFolder = new System.Windows.Forms.TextBox();
+            textBoxFileNamePrefix = new System.Windows.Forms.TextBox();
+            numericStartPage = new System.Windows.Forms.NumericUpDown();
+            numericTotalPage = new System.Windows.Forms.NumericUpDown();
+            label5 = new System.Windows.Forms.Label();
+            labelCapturePos = new System.Windows.Forms.Label();
+            label7 = new System.Windows.Forms.Label();
+            labelClickPos = new System.Windows.Forms.Label();
+            buttonStart = new System.Windows.Forms.Button();
+            label9 = new System.Windows.Forms.Label();
+            numericWaitSecond = new System.Windows.Forms.NumericUpDown();
+            buttonStop = new System.Windows.Forms.Button();
+            labelStatus = new System.Windows.Forms.Label();
+            buttonExit = new System.Windows.Forms.Button();
+            checkBoxCutLeftRight = new System.Windows.Forms.CheckBox();
+            pictureBox4 = new System.Windows.Forms.PictureBox();
+            pictureBox3 = new System.Windows.Forms.PictureBox();
+            pictureBox2 = new System.Windows.Forms.PictureBox();
+            pictureBox1 = new System.Windows.Forms.PictureBox();
+            saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            pictureBoxMain = new System.Windows.Forms.PictureBox();
+            label1 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
+            label4 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)numericStartPage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericTotalPage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericWaitSecond).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxMain).BeginInit();
+            SuspendLayout();
             // 
             // textBoxSaveFolder
             // 
-            this.textBoxSaveFolder.Location = new System.Drawing.Point(82, 7);
-            this.textBoxSaveFolder.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxSaveFolder.Name = "textBoxSaveFolder";
-            this.textBoxSaveFolder.Size = new System.Drawing.Size(122, 20);
-            this.textBoxSaveFolder.TabIndex = 21;
+            textBoxSaveFolder.Location = new System.Drawing.Point(82, 7);
+            textBoxSaveFolder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            textBoxSaveFolder.Name = "textBoxSaveFolder";
+            textBoxSaveFolder.Size = new System.Drawing.Size(94, 20);
+            textBoxSaveFolder.TabIndex = 21;
             // 
             // textBoxFileNamePrefix
             // 
-            this.textBoxFileNamePrefix.Location = new System.Drawing.Point(321, 7);
-            this.textBoxFileNamePrefix.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxFileNamePrefix.Name = "textBoxFileNamePrefix";
-            this.textBoxFileNamePrefix.Size = new System.Drawing.Size(110, 20);
-            this.textBoxFileNamePrefix.TabIndex = 23;
+            textBoxFileNamePrefix.Location = new System.Drawing.Point(296, 7);
+            textBoxFileNamePrefix.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            textBoxFileNamePrefix.Name = "textBoxFileNamePrefix";
+            textBoxFileNamePrefix.Size = new System.Drawing.Size(110, 20);
+            textBoxFileNamePrefix.TabIndex = 23;
             // 
             // numericStartPage
             // 
-            this.numericStartPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numericStartPage.Location = new System.Drawing.Point(476, 7);
-            this.numericStartPage.Margin = new System.Windows.Forms.Padding(2);
-            this.numericStartPage.Maximum = new decimal(new int[] {
-            999,
-            0,
-            0,
-            0});
-            this.numericStartPage.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericStartPage.Name = "numericStartPage";
-            this.numericStartPage.Size = new System.Drawing.Size(53, 20);
-            this.numericStartPage.TabIndex = 24;
-            this.numericStartPage.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            numericStartPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            numericStartPage.Location = new System.Drawing.Point(451, 7);
+            numericStartPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            numericStartPage.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            numericStartPage.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericStartPage.Name = "numericStartPage";
+            numericStartPage.Size = new System.Drawing.Size(52, 20);
+            numericStartPage.TabIndex = 24;
+            numericStartPage.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // numericTotalPage
             // 
-            this.numericTotalPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numericTotalPage.Location = new System.Drawing.Point(575, 7);
-            this.numericTotalPage.Margin = new System.Windows.Forms.Padding(2);
-            this.numericTotalPage.Maximum = new decimal(new int[] {
-            999,
-            0,
-            0,
-            0});
-            this.numericTotalPage.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericTotalPage.Name = "numericTotalPage";
-            this.numericTotalPage.Size = new System.Drawing.Size(52, 20);
-            this.numericTotalPage.TabIndex = 26;
-            this.numericTotalPage.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            numericTotalPage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            numericTotalPage.Location = new System.Drawing.Point(574, 7);
+            numericTotalPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            numericTotalPage.Maximum = new decimal(new int[] { 999, 0, 0, 0 });
+            numericTotalPage.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
+            numericTotalPage.Name = "numericTotalPage";
+            numericTotalPage.Size = new System.Drawing.Size(52, 20);
+            numericTotalPage.TabIndex = 26;
+            numericTotalPage.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(635, 9);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 13);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "Capture Pos:";
+            label5.AutoSize = true;
+            label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label5.Location = new System.Drawing.Point(609, 9);
+            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(80, 13);
+            label5.TabIndex = 27;
+            label5.Text = "Capture Pos:";
             // 
             // labelCapturePos
             // 
-            this.labelCapturePos.AutoSize = true;
-            this.labelCapturePos.Location = new System.Drawing.Point(738, 9);
-            this.labelCapturePos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelCapturePos.Name = "labelCapturePos";
-            this.labelCapturePos.Size = new System.Drawing.Size(120, 13);
-            this.labelCapturePos.TabIndex = 28;
-            this.labelCapturePos.Text = "1024,1024 / 1024,1024";
-            this.labelCapturePos.Click += new System.EventHandler(this.labelCapturePos_Click);
+            labelCapturePos.AutoSize = true;
+            labelCapturePos.Location = new System.Drawing.Point(713, 9);
+            labelCapturePos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            labelCapturePos.Name = "labelCapturePos";
+            labelCapturePos.Size = new System.Drawing.Size(120, 13);
+            labelCapturePos.TabIndex = 28;
+            labelCapturePos.Text = "1024,1024 / 1024,1024";
+            labelCapturePos.Click += labelCapturePos_Click;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(911, 9);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 13);
-            this.label7.TabIndex = 30;
-            this.label7.Text = "Click Pos:";
+            label7.AutoSize = true;
+            label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label7.Location = new System.Drawing.Point(885, 9);
+            label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(64, 13);
+            label7.TabIndex = 30;
+            label7.Text = "Click Pos:";
             // 
             // labelClickPos
             // 
-            this.labelClickPos.AutoSize = true;
-            this.labelClickPos.Location = new System.Drawing.Point(997, 9);
-            this.labelClickPos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelClickPos.Name = "labelClickPos";
-            this.labelClickPos.Size = new System.Drawing.Size(58, 13);
-            this.labelClickPos.TabIndex = 28;
-            this.labelClickPos.Text = "1024,1024";
+            labelClickPos.AutoSize = true;
+            labelClickPos.Location = new System.Drawing.Point(973, 9);
+            labelClickPos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            labelClickPos.Name = "labelClickPos";
+            labelClickPos.Size = new System.Drawing.Size(58, 13);
+            labelClickPos.TabIndex = 28;
+            labelClickPos.Text = "1024,1024";
             // 
             // buttonStart
             // 
-            this.buttonStart.Location = new System.Drawing.Point(1447, 4);
-            this.buttonStart.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(37, 21);
-            this.buttonStart.TabIndex = 32;
-            this.buttonStart.Text = "Start";
-            this.buttonStart.UseVisualStyleBackColor = true;
-            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
+            buttonStart.Location = new System.Drawing.Point(1413, 4);
+            buttonStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            buttonStart.Name = "buttonStart";
+            buttonStart.Size = new System.Drawing.Size(38, 21);
+            buttonStart.TabIndex = 32;
+            buttonStart.Text = "Start";
+            buttonStart.UseVisualStyleBackColor = true;
+            buttonStart.Click += buttonStart_Click;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(1059, 9);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(63, 13);
-            this.label9.TabIndex = 33;
-            this.label9.Text = "Wait Sec:";
+            label9.AutoSize = true;
+            label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label9.Location = new System.Drawing.Point(1034, 9);
+            label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(63, 13);
+            label9.TabIndex = 33;
+            label9.Text = "Wait Sec:";
             // 
             // numericWaitSecond
             // 
-            this.numericWaitSecond.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numericWaitSecond.Location = new System.Drawing.Point(1119, 7);
-            this.numericWaitSecond.Margin = new System.Windows.Forms.Padding(2);
-            this.numericWaitSecond.Maximum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            0});
-            this.numericWaitSecond.Minimum = new decimal(new int[] {
-            3,
-            0,
-            0,
-            0});
-            this.numericWaitSecond.Name = "numericWaitSecond";
-            this.numericWaitSecond.Size = new System.Drawing.Size(49, 20);
-            this.numericWaitSecond.TabIndex = 34;
-            this.numericWaitSecond.Value = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
+            numericWaitSecond.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            numericWaitSecond.Location = new System.Drawing.Point(1094, 7);
+            numericWaitSecond.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            numericWaitSecond.Maximum = new decimal(new int[] { 20, 0, 0, 0 });
+            numericWaitSecond.Minimum = new decimal(new int[] { 3, 0, 0, 0 });
+            numericWaitSecond.Name = "numericWaitSecond";
+            numericWaitSecond.Size = new System.Drawing.Size(38, 20);
+            numericWaitSecond.TabIndex = 34;
+            numericWaitSecond.Value = new decimal(new int[] { 5, 0, 0, 0 });
             // 
             // buttonStop
             // 
-            this.buttonStop.Location = new System.Drawing.Point(1486, 3);
-            this.buttonStop.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonStop.Name = "buttonStop";
-            this.buttonStop.Size = new System.Drawing.Size(37, 21);
-            this.buttonStop.TabIndex = 35;
-            this.buttonStop.Text = "Stop";
-            this.buttonStop.UseVisualStyleBackColor = true;
-            this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click);
+            buttonStop.Location = new System.Drawing.Point(1451, 3);
+            buttonStop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            buttonStop.Name = "buttonStop";
+            buttonStop.Size = new System.Drawing.Size(38, 21);
+            buttonStop.TabIndex = 35;
+            buttonStop.Text = "Stop";
+            buttonStop.UseVisualStyleBackColor = true;
+            buttonStop.Click += buttonStop_Click;
             // 
             // labelStatus
             // 
-            this.labelStatus.AutoSize = true;
-            this.labelStatus.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelStatus.Location = new System.Drawing.Point(1271, 9);
-            this.labelStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelStatus.Name = "labelStatus";
-            this.labelStatus.Size = new System.Drawing.Size(37, 13);
-            this.labelStatus.TabIndex = 36;
-            this.labelStatus.Text = "Status";
-            this.labelStatus.Click += new System.EventHandler(this.labelStatus_Click);
+            labelStatus.AutoSize = true;
+            labelStatus.ForeColor = System.Drawing.SystemColors.Highlight;
+            labelStatus.Location = new System.Drawing.Point(1235, 10);
+            labelStatus.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            labelStatus.Name = "labelStatus";
+            labelStatus.Size = new System.Drawing.Size(37, 13);
+            labelStatus.TabIndex = 36;
+            labelStatus.Text = "Status";
+            labelStatus.Click += labelStatus_Click;
             // 
             // buttonExit
             // 
-            this.buttonExit.Location = new System.Drawing.Point(1525, 3);
-            this.buttonExit.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(37, 21);
-            this.buttonExit.TabIndex = 37;
-            this.buttonExit.Text = "Exit";
-            this.buttonExit.UseVisualStyleBackColor = true;
-            this.buttonExit.Click += new System.EventHandler(this.button3_Click);
+            buttonExit.Location = new System.Drawing.Point(1491, 3);
+            buttonExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            buttonExit.Name = "buttonExit";
+            buttonExit.Size = new System.Drawing.Size(38, 21);
+            buttonExit.TabIndex = 37;
+            buttonExit.Text = "Exit";
+            buttonExit.UseVisualStyleBackColor = true;
+            buttonExit.Click += button3_Click;
             // 
             // checkBoxCutLeftRight
             // 
-            this.checkBoxCutLeftRight.AutoSize = true;
-            this.checkBoxCutLeftRight.Location = new System.Drawing.Point(1175, 8);
-            this.checkBoxCutLeftRight.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBoxCutLeftRight.Name = "checkBoxCutLeftRight";
-            this.checkBoxCutLeftRight.Size = new System.Drawing.Size(93, 17);
-            this.checkBoxCutLeftRight.TabIndex = 38;
-            this.checkBoxCutLeftRight.Text = "Cut Left/Right";
-            this.checkBoxCutLeftRight.UseVisualStyleBackColor = true;
+            checkBoxCutLeftRight.AutoSize = true;
+            checkBoxCutLeftRight.Location = new System.Drawing.Point(1139, 8);
+            checkBoxCutLeftRight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            checkBoxCutLeftRight.Name = "checkBoxCutLeftRight";
+            checkBoxCutLeftRight.Size = new System.Drawing.Size(93, 17);
+            checkBoxCutLeftRight.TabIndex = 38;
+            checkBoxCutLeftRight.Text = "Cut Left/Right";
+            checkBoxCutLeftRight.UseVisualStyleBackColor = true;
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(883, 6);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 40;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            pictureBox4.Image = (System.Drawing.Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new System.Drawing.Point(859, 6);
+            pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new System.Drawing.Size(20, 20);
+            pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 40;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(859, 6);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 39;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            pictureBox3.Image = (System.Drawing.Image)resources.GetObject("pictureBox3.Image");
+            pictureBox3.Location = new System.Drawing.Point(835, 6);
+            pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new System.Drawing.Size(20, 20);
+            pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 39;
+            pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(976, 6);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 31;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            pictureBox2.Image = (System.Drawing.Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new System.Drawing.Point(951, 6);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new System.Drawing.Size(20, 20);
+            pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 31;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(714, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 29;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            pictureBox1.Image = (System.Drawing.Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new System.Drawing.Point(689, 6);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new System.Drawing.Size(20, 20);
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 29;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // saveFileDialog1
             // 
-            this.saveFileDialog1.Filter = "PNG Image (*.png)|*.png";
-            this.saveFileDialog1.RestoreDirectory = true;
-            this.saveFileDialog1.Title = "Save Image to";
+            saveFileDialog1.Filter = "PNG Image (*.png)|*.png";
+            saveFileDialog1.RestoreDirectory = true;
+            saveFileDialog1.Title = "Save Image to";
             // 
             // pictureBoxMain
             // 
-            this.pictureBoxMain.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMain.Image")));
-            this.pictureBoxMain.Location = new System.Drawing.Point(206, 6);
-            this.pictureBoxMain.Name = "pictureBoxMain";
-            this.pictureBoxMain.Size = new System.Drawing.Size(20, 20);
-            this.pictureBoxMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxMain.TabIndex = 19;
-            this.pictureBoxMain.TabStop = false;
-            this.pictureBoxMain.Click += new System.EventHandler(this.pictureBoxMain_Click);
+            pictureBoxMain.Image = (System.Drawing.Image)resources.GetObject("pictureBoxMain.Image");
+            pictureBoxMain.Location = new System.Drawing.Point(181, 6);
+            pictureBoxMain.Name = "pictureBoxMain";
+            pictureBoxMain.Size = new System.Drawing.Size(20, 20);
+            pictureBoxMain.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            pictureBoxMain.TabIndex = 19;
+            pictureBoxMain.TabStop = false;
+            pictureBoxMain.Click += pictureBoxMain_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(4, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 13);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Save Folder:";
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label1.ForeColor = System.Drawing.SystemColors.ControlText;
+            label1.Location = new System.Drawing.Point(4, 9);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(79, 13);
+            label1.TabIndex = 20;
+            label1.Text = "Save Folder:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(227, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 13);
-            this.label2.TabIndex = 22;
-            this.label2.Text = "Filename Prefix:";
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label2.Location = new System.Drawing.Point(201, 9);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(97, 13);
+            label2.TabIndex = 22;
+            label2.Text = "Filename Prefix:";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(434, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(38, 13);
-            this.label3.TabIndex = 22;
-            this.label3.Text = "Start:";
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label3.Location = new System.Drawing.Point(409, 9);
+            label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(38, 13);
+            label3.TabIndex = 22;
+            label3.Text = "Start:";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(535, 9);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Total:";
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label4.Location = new System.Drawing.Point(511, 9);
+            label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(40, 13);
+            label4.TabIndex = 25;
+            label4.Text = "Total:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1567, 32);
-            this.ControlBox = false;
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.checkBoxCutLeftRight);
-            this.Controls.Add(this.buttonExit);
-            this.Controls.Add(this.labelStatus);
-            this.Controls.Add(this.buttonStop);
-            this.Controls.Add(this.numericWaitSecond);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.buttonStart);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.labelClickPos);
-            this.Controls.Add(this.labelCapturePos);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.numericTotalPage);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.numericStartPage);
-            this.Controls.Add(this.textBoxFileNamePrefix);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBoxSaveFolder);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBoxMain);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Form1";
-            this.Text = "eBook Screen Capture";
-            this.TopMost = true;
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.Move += new System.EventHandler(this.Form1_Move);
-            ((System.ComponentModel.ISupportInitialize)(this.numericStartPage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericTotalPage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericWaitSecond)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMain)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1539, 32);
+            ControlBox = false;
+            Controls.Add(pictureBox4);
+            Controls.Add(pictureBox3);
+            Controls.Add(checkBoxCutLeftRight);
+            Controls.Add(buttonExit);
+            Controls.Add(labelStatus);
+            Controls.Add(buttonStop);
+            Controls.Add(numericWaitSecond);
+            Controls.Add(label9);
+            Controls.Add(buttonStart);
+            Controls.Add(pictureBox2);
+            Controls.Add(label7);
+            Controls.Add(pictureBox1);
+            Controls.Add(labelClickPos);
+            Controls.Add(labelCapturePos);
+            Controls.Add(label5);
+            Controls.Add(numericTotalPage);
+            Controls.Add(label4);
+            Controls.Add(numericStartPage);
+            Controls.Add(textBoxFileNamePrefix);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(textBoxSaveFolder);
+            Controls.Add(label1);
+            Controls.Add(pictureBoxMain);
+            Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "Form1";
+            Text = "eBook Screen Capture";
+            TopMost = true;
+            Load += Form1_Load;
+            Move += Form1_Move;
+            ((System.ComponentModel.ISupportInitialize)numericStartPage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericTotalPage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericWaitSecond).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxMain).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 

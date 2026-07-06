@@ -28,142 +28,142 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDownX1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDownY1 = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDownY2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDownX2 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.labelOrgSize = new System.Windows.Forms.Label();
-            this.labelSaveSize = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownX1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownY1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownY2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownX2)).BeginInit();
-            this.SuspendLayout();
+            label2 = new System.Windows.Forms.Label();
+            numericUpDownX1 = new System.Windows.Forms.NumericUpDown();
+            numericUpDownY1 = new System.Windows.Forms.NumericUpDown();
+            label1 = new System.Windows.Forms.Label();
+            numericUpDownY2 = new System.Windows.Forms.NumericUpDown();
+            numericUpDownX2 = new System.Windows.Forms.NumericUpDown();
+            button1 = new System.Windows.Forms.Button();
+            label3 = new System.Windows.Forms.Label();
+            labelOrgSize = new System.Windows.Forms.Label();
+            labelSaveSize = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownX1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownY1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownY2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownX2).BeginInit();
+            SuspendLayout();
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(11, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 13);
-            this.label2.TabIndex = 21;
-            this.label2.Text = "New Size:";
+            label2.AutoSize = true;
+            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            label2.Location = new System.Drawing.Point(11, 9);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(64, 13);
+            label2.TabIndex = 21;
+            label2.Text = "New Size:";
             // 
             // numericUpDownX1
             // 
-            this.numericUpDownX1.Location = new System.Drawing.Point(80, 7);
-            this.numericUpDownX1.Name = "numericUpDownX1";
-            this.numericUpDownX1.Size = new System.Drawing.Size(63, 20);
-            this.numericUpDownX1.TabIndex = 22;
-            this.numericUpDownX1.ValueChanged += new System.EventHandler(this.numericUpDownX1_ValueChanged);
+            numericUpDownX1.Location = new System.Drawing.Point(80, 7);
+            numericUpDownX1.Name = "numericUpDownX1";
+            numericUpDownX1.Size = new System.Drawing.Size(63, 20);
+            numericUpDownX1.TabIndex = 22;
+            numericUpDownX1.ValueChanged += numericUpDownX1_ValueChanged;
             // 
             // numericUpDownY1
             // 
-            this.numericUpDownY1.Location = new System.Drawing.Point(155, 7);
-            this.numericUpDownY1.Name = "numericUpDownY1";
-            this.numericUpDownY1.Size = new System.Drawing.Size(63, 20);
-            this.numericUpDownY1.TabIndex = 23;
-            this.numericUpDownY1.ValueChanged += new System.EventHandler(this.numericUpDownY1_ValueChanged);
+            numericUpDownY1.Location = new System.Drawing.Point(155, 7);
+            numericUpDownY1.Name = "numericUpDownY1";
+            numericUpDownY1.Size = new System.Drawing.Size(63, 20);
+            numericUpDownY1.TabIndex = 23;
+            numericUpDownY1.ValueChanged += numericUpDownY1_ValueChanged;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(230, 11);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 13);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "X";
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(230, 11);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(14, 13);
+            label1.TabIndex = 24;
+            label1.Text = "X";
             // 
             // numericUpDownY2
             // 
-            this.numericUpDownY2.Location = new System.Drawing.Point(331, 7);
-            this.numericUpDownY2.Name = "numericUpDownY2";
-            this.numericUpDownY2.Size = new System.Drawing.Size(63, 20);
-            this.numericUpDownY2.TabIndex = 26;
-            this.numericUpDownY2.ValueChanged += new System.EventHandler(this.numericUpDownY2_ValueChanged);
+            numericUpDownY2.Location = new System.Drawing.Point(331, 7);
+            numericUpDownY2.Name = "numericUpDownY2";
+            numericUpDownY2.Size = new System.Drawing.Size(63, 20);
+            numericUpDownY2.TabIndex = 26;
+            numericUpDownY2.ValueChanged += numericUpDownY2_ValueChanged;
             // 
             // numericUpDownX2
             // 
-            this.numericUpDownX2.Location = new System.Drawing.Point(256, 7);
-            this.numericUpDownX2.Name = "numericUpDownX2";
-            this.numericUpDownX2.Size = new System.Drawing.Size(63, 20);
-            this.numericUpDownX2.TabIndex = 25;
-            this.numericUpDownX2.ValueChanged += new System.EventHandler(this.numericUpDownX2_ValueChanged);
+            numericUpDownX2.Location = new System.Drawing.Point(256, 7);
+            numericUpDownX2.Name = "numericUpDownX2";
+            numericUpDownX2.Size = new System.Drawing.Size(63, 20);
+            numericUpDownX2.TabIndex = 25;
+            numericUpDownX2.ValueChanged += numericUpDownX2_ValueChanged;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(403, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(64, 23);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "OK";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new System.Drawing.Point(403, 5);
+            button1.Name = "button1";
+            button1.Size = new System.Drawing.Size(64, 23);
+            button1.TabIndex = 27;
+            button1.Text = "OK";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(585, 10);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(82, 13);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Original Size:";
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            label3.Location = new System.Drawing.Point(585, 10);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(82, 13);
+            label3.TabIndex = 28;
+            label3.Text = "Original Size:";
             // 
             // labelOrgSize
             // 
-            this.labelOrgSize.AutoSize = true;
-            this.labelOrgSize.Location = new System.Drawing.Point(671, 10);
-            this.labelOrgSize.Name = "labelOrgSize";
-            this.labelOrgSize.Size = new System.Drawing.Size(35, 13);
-            this.labelOrgSize.TabIndex = 29;
-            this.labelOrgSize.Text = "label4";
+            labelOrgSize.AutoSize = true;
+            labelOrgSize.Location = new System.Drawing.Point(671, 10);
+            labelOrgSize.Name = "labelOrgSize";
+            labelOrgSize.Size = new System.Drawing.Size(35, 13);
+            labelOrgSize.TabIndex = 29;
+            labelOrgSize.Text = "label4";
             // 
             // labelSaveSize
             // 
-            this.labelSaveSize.AutoSize = true;
-            this.labelSaveSize.Location = new System.Drawing.Point(475, 10);
-            this.labelSaveSize.Name = "labelSaveSize";
-            this.labelSaveSize.Size = new System.Drawing.Size(35, 13);
-            this.labelSaveSize.TabIndex = 30;
-            this.labelSaveSize.Text = "label4";
+            labelSaveSize.AutoSize = true;
+            labelSaveSize.Location = new System.Drawing.Point(475, 10);
+            labelSaveSize.Name = "labelSaveSize";
+            labelSaveSize.Size = new System.Drawing.Size(35, 13);
+            labelSaveSize.TabIndex = 30;
+            labelSaveSize.Text = "label4";
             // 
             // CustomCapturePosWin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 35);
-            this.ControlBox = false;
-            this.Controls.Add(this.labelSaveSize);
-            this.Controls.Add(this.labelOrgSize);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.numericUpDownY2);
-            this.Controls.Add(this.numericUpDownX2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.numericUpDownY1);
-            this.Controls.Add(this.numericUpDownX1);
-            this.Controls.Add(this.label2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "CustomCapturePosWin";
-            this.Text = "Custom Capture Size";
-            this.TopMost = true;
-            this.Load += new System.EventHandler(this.CustomCapturePosWin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownX1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownY1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownY2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownX2)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(811, 33);
+            ControlBox = false;
+            Controls.Add(labelSaveSize);
+            Controls.Add(labelOrgSize);
+            Controls.Add(label3);
+            Controls.Add(button1);
+            Controls.Add(numericUpDownY2);
+            Controls.Add(numericUpDownX2);
+            Controls.Add(label1);
+            Controls.Add(numericUpDownY1);
+            Controls.Add(numericUpDownX1);
+            Controls.Add(label2);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "CustomCapturePosWin";
+            Text = "Custom Capture Size";
+            TopMost = true;
+            Load += CustomCapturePosWin_Load;
+            ((System.ComponentModel.ISupportInitialize)numericUpDownX1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownY1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownY2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDownX2).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
